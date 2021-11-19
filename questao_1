@@ -30,3 +30,21 @@ public class Livro {
     }
     
 }
+--------------------------------------------------------------------------------------------------------------------
+public class UsandoLivro {
+
+    public static  void main (String[] args){
+        Livro livro1 = new Livro();
+
+        livro1.setTitulo("Quem e voce alasca", "John Green", "intriseca", 336, 32.50 );
+
+        System.out.println(livro1.getTitulo());
+        System.out.println(livro1.getautor());
+        System.out.println(livro1.geteditora());
+        System.out.println(livro1.getnmrPaginas());
+        System.out.println(livro1.getpreco());
+
+        
+    }
+    
+}
