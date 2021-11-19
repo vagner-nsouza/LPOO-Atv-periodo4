@@ -1,0 +1,32 @@
+public class Livro {
+    private String titulo;
+    private String autor;
+    private String editora;
+    private int nmrPaginas;
+    private double preco;
+
+    public void setTitulo(String titulo, String autor, String editora, int nmrPaginas, double preco){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.editora = editora;
+        this.nmrPaginas = nmrPaginas;
+        this.preco = preco;
+    }
+
+    public String getTitulo(){
+        return titulo;
+    }
+    public String getautor(){
+        return autor;
+    }
+    public String geteditora(){
+        return editora;
+    }
+    public int getnmrPaginas(){
+        return nmrPaginas;
+    }
+    public double getpreco(){
+        return preco;
+    }
+    
+}
