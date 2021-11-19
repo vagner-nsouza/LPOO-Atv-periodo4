@@ -1,1 +1,15 @@
-
+public class carro{
+  
+  private String cor;
+  private String quantPortas;
+  private String modelo;
+  private String marca;
+  private int ano;
+  private double velMaxima;
+  private String tipoCombustivel;
+  
+  public double preco;
+  public double desconto;
+  
+  }
+  
